@@ -24,7 +24,7 @@ const App = () => {
 
        const handleSubmit = async(e)=>{
         e.preventDefault()
-        const res= await axios.post("http://localhost:3000/book",data)
+        const res= await axios.post("https://nodejs-z9rh.onrender.com/book",data)
        }
   
   return (
